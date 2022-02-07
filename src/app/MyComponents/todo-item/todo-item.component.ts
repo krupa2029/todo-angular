@@ -17,4 +17,5 @@ export class TodoItemComponent implements OnInit {
     this.todoDelete.emit(todo);
     console.log("OnClick triggered")
   }
+  
 }
